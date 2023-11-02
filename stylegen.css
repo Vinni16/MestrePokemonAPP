@@ -1,20 +1,31 @@
 body {
     background-color: #454443;
 }
-.topo {
-    display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+.bloco {
+    border-radius: 20px;
+    max-width: 500px;
+    background-color: #82807f;
 }
-.bloco1 {
+.bloco2 {
+    height: 140px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+.bloco3 {
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
     justify-content: space-around;
+}
+.console {
+    display: flex;
+    max-width: 100px;
 }
 .jogos {
     display: flex;
-    max-width: 200px;
+    max-width: 100px;
 }
-.status {
-    background-color:;
+.voltar {
+    align-items: center;
+    text-align: center;
 }
